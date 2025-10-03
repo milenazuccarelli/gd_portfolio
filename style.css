@@ -62,13 +62,20 @@ a:hover { text-decoration: underline; }
 
 .header {
     background: black;
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     color: rgb(221, 221, 221);
+}
+.header .name { font-size: 1rem; padding-top: 0.5em; }
+#spinny {
+    max-width: 70vmin;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 5em auto;
+    transform-origin: 50% 50%;
 }
 
 .grid { display: grid; gap: 1rem; }
